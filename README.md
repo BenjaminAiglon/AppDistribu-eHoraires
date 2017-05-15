@@ -14,7 +14,7 @@ Service de gestion des horaires - Objectif : création des horaires pour les ét
   
   -- LOGIQUE --
   
-  1ère étape : Entrer le matricule d'un étudiant via l'interface et l'envoyer au service "gestion des étudiants" pour                       l'intéroger sur la liste des cours (id) auxquels l'étudiant est inscrit
+  1ère étape : Entrer le matricule d'un étudiant via l'interface et l'envoyer au service "gestion des étudiants" pour                       l'interoger sur la liste des cours (id) auxquels l'étudiant est inscrit
   
   2ème étape : Envoyer les id au service "gestion des UE" pour récupérer les appelations des UE 
   
