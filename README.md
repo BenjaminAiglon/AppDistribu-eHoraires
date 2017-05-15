@@ -1,8 +1,6 @@
 # AppDistribueeHoraires
 
-Auteurs :   AIGLON Benjamin
-
-            LHOEST Lancelot 
+Auteurs :   AIGLON Benjamin & LHOEST Lancelot 
             
 Service de gestion des horaires - Objectif : création des horaires pour les étudiants. 
 
