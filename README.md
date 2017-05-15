@@ -8,7 +8,9 @@ Service de gestion des horaires - Objectif : création des horaires pour les ét
 3 parties : 
 
   1 interface graphique : on entre le matricule d'un étudiant et on visualise son horaire 
+  
   1 base de données (mySQL) : elle contient la liste des UE avec leurs périodes (semaine 1, semaine 5, ...) et locaux
+  
   1 serveur : récupération des informations des autres parties via API Http / Logique de l'application
   
   -- LOGIQUE --
