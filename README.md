@@ -6,14 +6,14 @@ Service de gestion des horaires - Objectif : création des horaires pour les ét
 
 3 parties : 
 
-  1 application web (Angular):
+  1 application web (Angular, fichier "app.component.ts"):
   
             - interface graphique: on entre le matricule d'un étudiant et on visualise son horaire
             - logique: des requêtes HTTP sont envoyées à notre serveur ou aux serveurs des autres services (UE et étudiants)
   
   1 base de données (mySQL) : elle contient la liste des UE avec leurs périodes (semaine 1, semaine 5, ...) et locaux
   
-  1 serveur (Node.js): il permet de récupérer des informations stockées dans la base de données
+  1 serveur (Node.js, fichier "server.js"): il permet de récupérer des informations stockées dans la base de données
   
   -- LOGIQUE --
   
@@ -30,6 +30,6 @@ Service de gestion des horaires - Objectif : création des horaires pour les ét
   
   Deux principales améliorations pourraient encore être ajoutées:
   
-            - ajouter une fonction pour le professeur, similaire à celle qui récupère la liste des cours (id) auxquels un étudiant est inscrit, qui récupèrerait la liste des cours (id) auxquels un professeur est inscrit.
-            - ajouter la possibilité d'ajouter depuis l'application web des nouveaux cours à notre base de données, ayant lieu pendant une certaine semaine et ayant lieu dans un certain local. Ainsi un utilisateur pourrait le faire. Maintenant, on est encore obligé de le faire en ligne de commande en MySQL.
+            - ajouter une fonction pour les professeur, similaire à celle qui récupère la liste des cours (id) auxquels un étudiant est inscrit, qui récupèrerait la liste des cours (id) auxquels un professeur est inscrit.
+            - ajouter la possibilité d'ajouter depuis l'application web des nouveaux cours à notre base de données, ayant lieu pendant une certaine semaine et ayant lieu dans un certain local. Ainsi un utilisateur pourrait le faire. Maintenant, on est encore obligé de le faire en ligne de commande en MySQL. Le but de cette fonctionnalité est donc de permettre à notre application d'effectuer des transferts de données bidirectionnels, au lieu d'unidirectionnels comme c'est le cas pour l'instant. Il faut pouvoir faire des requêtes GET et des requêtes POST vers notre serveur. 
   
