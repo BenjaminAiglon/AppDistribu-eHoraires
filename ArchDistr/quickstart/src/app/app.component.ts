@@ -41,7 +41,7 @@ export class AppComponent  {
       this.webservice.get(url_students).subscribe((res => {
         console.log(res);
         //si resultat ok
-        console.log("Etudiants récupérés");
+        console.log("Etudiant récupéré");
 
         for (var info1 in res){
           this.name = res[info1].first_name;
@@ -80,7 +80,12 @@ export class AppComponent  {
             this.local = res[info3].room;
             this.week = res[info3].week;
           }
-
+          
+          console.log("Voici l'horaire du matricule que vous avez entré:");
+          console.log("UE:" + this.ue_nom);
+          console.log("Semaine:" + this.week);
+          console.log("Local:" + this.local);
+          
         }),
         (err => { //sinon...
           console.log("Horaires - Quelque chose ne va pas...");
