@@ -8,8 +8,8 @@ Service de gestion des horaires - Objectif : création des horaires pour les ét
 
   1 application web (Angular):
   
-            - interface graphique: on entre le matricule d'un étudiant et on visualise son horaire
-            - logique: des requêtes HTTP sont envoyées à notre serveur ou aux serveurs des autres services (UE et étudiants)
+     a) interface graphique: on entre le matricule d'un étudiant et on visualise son horaire
+     b) logique: des requêtes HTTP sont envoyées à notre serveur ou aux serveurs des autres services (UE et étudiants)
                                
   1 base de données (mySQL) : elle contient la liste des UE avec leurs périodes (semaine 1, semaine 5, ...) et locaux
   
