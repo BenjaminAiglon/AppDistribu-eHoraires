@@ -8,8 +8,8 @@ Service de gestion des horaires - Objectif : création des horaires pour les ét
 
   1 application web (Angular, fichier "app.component.ts"):
   
-            - interface graphique: on entre le matricule d'un étudiant et on visualise son horaire
-            - logique: des requêtes HTTP sont envoyées à notre serveur ou aux serveurs des autres services (UE et étudiants)
+     interface graphique: on entre le matricule d'un étudiant et on visualise son horaire
+     logique: des requêtes HTTP sont envoyées à notre serveur ou aux serveurs des autres services (UE et étudiants)
   
   1 base de données (mySQL) : elle contient la liste des UE avec leurs périodes (semaine 1, semaine 5, ...) et locaux
   
@@ -28,8 +28,8 @@ Service de gestion des horaires - Objectif : création des horaires pour les ét
   
   Pour l'instant, uniquement l'affichage de l'horaire dans la console a été testé. Le code pour afficher l'horaire dans l'application a également été écrit et il devrait fonctionner, mais par manque de temps il n'a pas encore pu être testé (étant donné que nous devons tous être réunis pour pouvoir faire fonctionner correctement cette application distribuée).
   
-  Deux principales améliorations pourraient encore être ajoutées:
+Pour compléter ce travail, une fonctionnalité pourrait être développer :
   
-            - ajouter une fonction pour les professeur, similaire à celle qui récupère la liste des cours (id) auxquels un étudiant est inscrit, qui récupèrerait la liste des cours (id) auxquels un professeur est inscrit.
-            - ajouter la possibilité d'ajouter depuis l'application web des nouveaux cours à notre base de données, ayant lieu pendant une certaine semaine et ayant lieu dans un certain local. Ainsi un utilisateur pourrait le faire. Maintenant, on est encore obligé de le faire en ligne de commande en MySQL. Le but de cette fonctionnalité est donc de permettre à notre application d'effectuer des transferts de données bidirectionnels, au lieu d'unidirectionnels comme c'est le cas pour l'instant. Il faut pouvoir faire des requêtes GET et des requêtes POST vers notre serveur. 
+Modification de l'interface pour que les professeurs puissent également avoir accès à leur horaire et qu'il puisse le                           modifier si besoin
+
   
