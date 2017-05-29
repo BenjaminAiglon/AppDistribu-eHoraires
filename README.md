@@ -28,8 +28,8 @@ Service de gestion des horaires - Objectif : création des horaires pour les ét
   
   Pour l'instant, uniquement l'affichage de l'horaire dans la console a été testé. Le code pour afficher l'horaire dans l'application a également été écrit et il devrait fonctionner, mais par manque de temps il n'a pas encore pu être testé (étant donné que nous devons tous être réunis pour pouvoir faire fonctionner correctement cette application distribuée).
   
-Pour compléter ce travail, une fonctionnalité pourrait être développer :
+Pour compléter ce travail, une fonctionnalité pourrait être développée :
   
-Modification de l'interface pour que les professeurs puissent également avoir accès à leur horaire et qu'il puisse le                           modifier si besoin
+Modification de l'interface pour que les professeurs puissent également avoir accès à leur horaire et qu'ils puissent le                           modifier si besoin
 
   
